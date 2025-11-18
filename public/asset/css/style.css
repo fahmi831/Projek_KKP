@@ -1,0 +1,86 @@
+/* File: public/css/styles.css */
+
+/* 1. Font Dasar */
+body {
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* 2. Styling Navbar (Menu Atas) */
+#mainNav {
+    background-color: #212529; /* Hitam Gelap */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#mainNav .navbar-brand {
+    color: #ffc800; /* Kuning Emas */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+}
+
+#mainNav .nav-link {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+    margin-right: 1rem;
+}
+
+#mainNav .nav-link:hover {
+    color: #ffc800; /* Berubah kuning saat disorot */
+}
+
+/* 3. Styling Hero Section (Gambar Utama Besar) */
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: white;
+    /* Gambar Background dari Internet */
+    background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh; /* Agar gambar memenuhi satu layar penuh */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+
+header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+/* 4. Tombol Kuning Kustom */
+.btn-primary {
+    background-color: #ffc800;
+    border-color: #ffc800;
+    color: white;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    border-radius: 50px; /* Membuat tombol jadi bulat lonjong */
+}
+
+.btn-primary:hover {
+    background-color: #d9aa00;
+    border-color: #d9aa00;
+}
